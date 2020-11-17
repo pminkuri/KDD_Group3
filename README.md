@@ -6,10 +6,10 @@ Exploratory Data Analysis on impact  of COVID’19 on Community Mobility
 
 ## Team Members:
 
-•	Shiva Sai Praneeth Chakinala
-•	Chaitanya Kintali 
-•	Prashanth Minkuri	-	801166901
-•	Pranitha Amrutha Veldanda
+>Shiva Sai Praneeth Chakinala
+>Chaitanya Kintali 
+>Prashanth Minkuri	-	801166901
+>Pranitha Amrutha Veldanda
 
 
 ## Project Introduction:
