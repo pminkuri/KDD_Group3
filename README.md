@@ -29,8 +29,10 @@ The Research Question we are focusing on is how COVID’19 has impacted the mobi
  
 We are performing our research on the data provided by Google that is collected from users who have opted-in to Location History for their Google Account. For daily COVID cases we are using data provided by CDC.
  
-Reference: https://www.google.com/covid19/mobility/
-           https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36/data
+References: 
+
+- https://www.google.com/covid19/mobility/
+- https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36/data
  
 ## Technologies Used:
 
