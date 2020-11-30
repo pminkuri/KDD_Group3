@@ -18,8 +18,7 @@ We will be performing Exploratory Data Analysis on the Community Mobility Report
  
 ## Research Question:
  
-The Research Question we are focusing on is how COVID’19 has impacted the mobility of people in various public places listed below with respect to daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. This analsysis
- 	
+The Research Question we are focusing on is how COVID’19 has impacted the mobility of people in various public places listed below with respect to daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. We also analyse how the mobility has impacted in different Red and Blue states of US.
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
 3. 	Transit stations and
