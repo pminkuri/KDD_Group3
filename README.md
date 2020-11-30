@@ -32,16 +32,18 @@ We are performing our research on the data provided by Google that is collected 
 Reference: https://www.google.com/covid19/mobility/
  
 ## Technologies Used:
-Python (Programming Language)
-Jupyter Notebook(IDE)
+
+- Python (Programming Language)
+- Jupyter Notebook(IDE)
+
 Libraries used in python :
-Pandas
-Matplotlib
-Numpy
-Scikit-learn 
-Seaborn
-Sklearn
-statsmodels
+- Pandas
+- Matplotlib
+- Numpy
+- Scikit-learn 
+- Seaborn
+- Sklearn
+- statsmodels
 
 ## Approach:
  
