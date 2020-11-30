@@ -13,7 +13,7 @@ GitHub Repo Link :  https://github.com/pminkuri/KDD_Group3
  
 ## Project Introduction:
  
-We will be performing Exploratory Data Analysis on the Community Mobility Reports data provided by Google during the pandemic period and analyse how the mobility of people to various popular public places has changed. We will try to extract various insights such as how the visits and duration of stay at different places changed compared to a baseline. The baseline is considered as the median value for the corresponding day of the 5- week period duration Jan 3–Feb 6, 2020.
+We will be performing Exploratory Data Analysis on the Community Mobility Reports data provided by Google during the pandemic period and analyse how the mobility of people to various popular public places has changed. We will try to extract various insights such as how the visits and duration of stay at different places changed compared to a baseline and number of COVID positve cases. The baseline is considered as the median value for the corresponding day of the 5- week period duration Jan 3–Feb 6, 2020.
 
  
 ## Research Question:
@@ -27,9 +27,10 @@ The Research Question we are focusing on is how COVID’19 has impacted the mobi
  
 ## Data Sources:
  
-We are performing our research on the data provided by Google that is collected from users who have opted-in to Location History for their Google Account.
+We are performing our research on the data provided by Google that is collected from users who have opted-in to Location History for their Google Account. For daily COVID cases we are using data provided by CDC.
  
 Reference: https://www.google.com/covid19/mobility/
+           https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36/data
  
 ## Technologies Used:
 
