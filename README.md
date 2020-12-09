@@ -59,12 +59,22 @@ Data Exploration
 Modeling Phase
 Evaluation Phase
 
-1. Research Phase
+### 1. Research Phase
 
 COVID-19 has rapidly spread in the world and social distancing or stay-at-home measures have been adopted by many countries. Mobility of people have been restricted to many public places. It will be valuable to learn from this research how the mobility to certain public places have changed with respect to the growing number of positive cases. We are conducting this analysis on 50 states of United States. In this project we aim to gather and analyse the data  related to the mobility to varuous place and understand how we can better social distancing measures at these public places.
 
-2. Data Understanding Phase
-In this we are understanding what data can be useful inorder to make our research more effective. We have chosen our data from Google which they collected  from the users who opted-in to Location History for their Google Account. We also collected data related to state wise  number of covid data in order to understand the daily trend of positive cases in different states.
+### 2. Data Understanding Phase
+In this phase we are understanding what data can be used inorder to make our research more effective. We have chosen our data from Google which they collected from the users who opted-in to Location History for their Google Account. We also collected data related to state wise  number of covid data in order to understand the daily trend of positive cases in different states. We will combine both the datasets to make our analysis.
+
+### 3. Data Preparation Phase
+
+
+- Due to compute restrictions we had to cut the size of dataset from ~ 20 million to ~ 10 million. We did this by dropping the random selection of 10 million rows so as to avoid the bias.
+- We scaled the data to normalize the relations between dependent and independent variables.
+- We encoded categorical variables using one-hot encoding and label-encoding.
+- Due to the large amount of missing values in the "year_built", "floor_count", "builiding_age" columns in the building metadata table, we dropped the columns.
+- Dropped columns like "building_id", "site_id" which are not necessary.
+- Instead of having the whole time stamp we just selected the hour value and stored.
 
 
 
