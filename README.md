@@ -64,17 +64,32 @@ Evaluation Phase
 COVID-19 has rapidly spread in the world and social distancing or stay-at-home measures have been adopted by many countries. Mobility of people have been restricted to many public places. It will be valuable to learn from this research how the mobility to certain public places have changed with respect to the growing number of positive cases. We are conducting this analysis on 50 states of United States. In this project we aim to gather and analyse the data  related to the mobility to varuous place and understand how we can better social distancing measures at these public places.
 
 ### 2. Data Understanding Phase
-In this phase we are understanding what data can be used inorder to make our research more effective. We have chosen our data from Google which they collected from the users who opted-in to Location History for their Google Account. We also collected data related to state wise  number of covid data in order to understand the daily trend of positive cases in different states. We will combine both the datasets to make our analysis.
+
+In this phase we are understanding what data can be used inorder to make our research more effective. We have chosen our data from Google which they collected from the users who opted-in to Location History for their Google Account. We also collected data related to state wise  number of covid data in order to understand the daily trend of positive cases in different states.We will combine both the datasets in order to perform anaylse on different mobility trends with respect to COVID positive cases.
 
 ### 3. Data Preparation Phase
 
+- Our datasets contains the values corresponding to each county within state. We are primarily focusing on analysing the state wise trends. Hence we are dropping all the rows corresponding to the each county
+- We are creating  new column 'cases_percent' and store the values by computing percentage of COVID positive cases using the columns 'New_cases' and 'Total_tests'
+- We have few null values in the columns 'parks' and 'transit_stations'. We will replaces those values with zeros so that we can caluclate accurate trends of the mobility to those category of places
+- Dataset "cases" contains large number of null values, we will drop those columns and replace other null values with zeros.
+- We convert datatype of date column to datetype so that we can use that column to filter the data based on the datetime values of the dataset..
 
-- Due to compute restrictions we had to cut the size of dataset from ~ 20 million to ~ 10 million. We did this by dropping the random selection of 10 million rows so as to avoid the bias.
-- We scaled the data to normalize the relations between dependent and independent variables.
-- We encoded categorical variables using one-hot encoding and label-encoding.
-- Due to the large amount of missing values in the "year_built", "floor_count", "builiding_age" columns in the building metadata table, we dropped the columns.
-- Dropped columns like "building_id", "site_id" which are not necessary.
-- Instead of having the whole time stamp we just selected the hour value and stored.
+### 4. Data Exploration phase
+
+- Summarising the mobility trends of different public place categories accross all the US States
+- Identifying the states with highest and lowest number of positive cases.
+- We are finding the correlation between different features of the dataset using the heatmaps
+- Identifying the outliers in each of the different category of places
+
+### 5. Modeling Phase
+
+This phase is under progress
+
+
+### 6. Evaluation Phase
+
+This phase is under progress
 
 
 
