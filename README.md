@@ -18,7 +18,7 @@ We will be performing Exploratory Data Analysis on the Community Mobility Report
  
 ## Research Question:
  
-The Research Question we are focusing on is how COVID’19 has impacted the mobility of people in various public places listed below with respect to daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. We also analyse how the mobility has impacted in different Red and Blue states of US.
+The Research Question we are focusing on is how COVID’19 has impacted the mobility of people in various public places listed below with respect to number of daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. We also analyse how the mobility has impacted in different Red and Blue states of US.
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
 3. 	Transit stations and
@@ -47,6 +47,27 @@ Libraries used in python :
 - Seaborn
 - Sklearn
 - statsmodels
+
+## CRISP-DM Process
+
+We have undergone these steps as a part of CRISP-DM:
+
+Research Phase
+Data Understanding Phase
+Data Preparation Phase
+Data Exploration
+Modeling Phase
+Evaluation Phase
+
+1. Research Phase
+
+COVID-19 has rapidly spread in the world and social distancing or stay-at-home measures have been adopted by many countries. Mobility of people have been restricted to many public places. It will be valuable to learn from this research how the mobility to certain public places have changed with respect to the growing number of positive cases. We are conducting this analysis on 50 states of United States. In this project we aim to gather and analyse the data  related to the mobility to varuous place and understand how we can better social distancing measures at these public places.
+
+2. Data Understanding Phase
+In this we are understanding what data can be useful inorder to make our research more effective. We have chosen our data from Google which they collected  from the users who opted-in to Location History for their Google Account. We also collected data related to state wise  number of covid data in order to understand the daily trend of positive cases in different states.
+
+
+
 
 ## Approach:
  
