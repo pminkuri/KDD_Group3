@@ -3,10 +3,10 @@
  
 ## Team Members:    
  
-- Shiva Sai Praneeth Chakinala    -     801147603
-- Chaitanya Kintali 	          -	   801097831
-- Prashanth Minkuri    	          -     801166901
-- Pranitha Amrutha Veldanda       -     801166969
+- Shiva Sai Praneeth Chakinala -  801147603
+- Chaitanya Kintali 	          -	 801097831
+- Prashanth Minkuri    	       -  801166901
+- Pranitha Amrutha Veldanda    -  801166969
  
 
 
@@ -20,10 +20,13 @@ We will be performing Exploratory Data Analysis on the Community Mobility Report
 ## Research Question:
  
 The Research Question we are focusing on is how COVID’19 has affected the mobility of people in various public places listed below with respect to a number of daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. We also analyze how mobility has affected in different Red and Blue states of the US.
+
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
 3. 	Transit stations and
-4. 	Parks categories
+4. 	Parks 
+5.  Residential
+6.  Workplace categories
 
  
 ## Data Sources:
@@ -35,9 +38,7 @@ References:
 - https://www.google.com/covid19/mobility/
 - https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36/data
  
-## Approach:
- 
-Understanding the dataset and performing Exploratory Data Analysis. Preparing data by handling missing values.
+
 
 ## Technologies Used:
 
@@ -52,6 +53,7 @@ Libraries used in python :
 - Seaborn
 - Sklearn
 - statsmodels
+- Plotly Express
 
 ## CRISP-DM Process
 
@@ -94,7 +96,9 @@ As our project primarily focused on exploratory data analysis, we are not dealin
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
 3. 	Transit stations and
-4. 	Parks categories
+4. 	Parks 
+5.  Residential
+6.  Workplace categories
 
 
 We also constructed our association rules by implementing the apriori algorithm on our selected dataset. Some of the associations we found are 
@@ -136,11 +140,11 @@ After we have performed our analysis on the mobility dataset we have got to foll
 
 
 
-## Future work
+### Future work
 
 In our current project, we have performed our analysis just to the state level in the US, as part of future work we can extend this model to the county level. The county-level analysis gives more accurate results with more possible insights. As we are dealing with time series data including the counties would have become more extensive data and we may have required more time.
 
-## Instructions
+### Instructions
 
 - This project needs python 3.7.
 - This solution requires Jupyter Notebooks or Google Colab to run.
