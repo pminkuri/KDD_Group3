@@ -109,6 +109,8 @@ We used exploratory data analysis to analyze the mobility trends of different pl
 We are visualizing the trends of mobility during COVID19 to different public places using the graphs plotted using the plotly library. Hovering on each individual state gives the statistics such as the totoal number of positive cases, change in mobility to 6 mentioned public places. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline.
 As part of implementation of these graphs we need to install following two libraries namely plotly and chart_studio
 
+https://github.com/pminkuri/KDD_Group3/blob/main/img/mobility_redblue.png
+
 
  
 
