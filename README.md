@@ -142,17 +142,17 @@ In our current project, we have performed our analysis just to the state level i
 
 ## Instructions
 
-This project needs python 3.7.
-This file requires Jupyter Notebooks or Google Colab to run.
-Packages to be installed: Numpy, Pandas, Sklearn, Matplotlib, Seaborn,Plotly, chart_studio.
-
-
-
+- This project needs python 3.7.
+- This solution requires Jupyter Notebooks or Google Colab to run.
+- Packages to be installed: Numpy, Pandas, Sklearn, Matplotlib, Seaborn,Plotly, chart_studio.
+ 
 Open Terminal or Command Prompt, Enter the following line to open the jupyter notebook.
 Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
 Make sure to put both Dataset and Notebook in the same folder.
 
 Now you can have access to the model we have built you can make an analysis using our dataset.
+
+You can also find all the visualisations we have performed in seperate pdf file  (https://github.com/pminkuri/KDD_Group3/blob/main/Visualizations.pdf)
 
 
 
