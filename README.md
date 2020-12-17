@@ -118,7 +118,16 @@ After we have performed our analysis on the mobility dataset we have got to foll
 
 ![highdrop](https://github.com/pminkuri/KDD_Group3/blob/main/img/highdrop.png)
 
+We also plotted graphs for individual graphs for each of the 6 mentioned public places and those graphs can be found in the notebook. 
 
+
+We can extend this to county level and analyse more  different trends
+
+
+
+## Future work
+
+In our current project we have performed our analysis just to state level in the US, as part of future work we can extend this model to county level. The county level analysis gives  more accurate results with more possible insights. As we are dealing with timeseries data including the counties would have become more extensive data and we may have required more time.
 
 ## Instructions
 
@@ -126,6 +135,14 @@ This project needs python 3.7.
 This file requires Jupyter Notebooks or Google Colab to run.
 Packages to be installed: Numpy, Pandas, Sklearn, Matplotlib, Seaborn,Plotly, chart_studio.
 
+
+
+Open Terminal or Command Prompt, Enter the following line to open the jupyter notebook(Note: Both the Dataset and the Notebook has to be in the same folder)
+jupyter notebook Bikeshare_New.ipynb
+Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
+Make sure to put both Dataset and Notebook in the same folder.
+
+Now you can have access to the model we have built you can make analysis using our dataset.
 
 
 
