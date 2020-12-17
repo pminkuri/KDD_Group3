@@ -1,41 +1,41 @@
 ### Project Group 3
 ### Exploratory Data Analysis of COVID’19 impact on Community Mobility
- 
-## Team Members:    
- 
-- Shiva Sai Praneeth Chakinala    -     801147603
-- Chaitanya Kintali 	          -	   801097831
-- Prashanth Minkuri    	          -     801166901
-- Pranitha Amrutha Veldanda       -     801166969
- 
-GitHub Repo Link:  https://github.com/pminkuri/KDD_Group3
+ 
+## Team Members:    
+ 
+- Shiva Sai Praneeth Chakinala    -     801147603
+- Chaitanya Kintali 	          -	   801097831
+- Prashanth Minkuri    	          -     801166901
+- Pranitha Amrutha Veldanda       -     801166969
+ 
+GitHub Repo Link:  https://github.com/pminkuri/KDD_Group3
 
- 
+ 
 ## Project Introduction:
- 
+ 
 We will be performing Exploratory Data Analysis on the Community Mobility Reports data provided by Google during the pandemic period and analyze how the mobility of people to various popular public places has changed. We will try to extract various insights such as how the visits and duration of stay at different places changed compared to a baseline and the number of COVID positive cases. The baseline is considered as the median value for the corresponding day of the 5- week period duration Jan 3–Feb 6, 2020.
 
- 
+ 
 ## Research Question:
- 
+ 
 The Research Question we are focusing on is how COVID’19 has affected the mobility of people in various public places listed below with respect to a number of daily positive cases across different states in the United States. This analysis can help public health authorities to take effective measures such as implementing social distancing restrictions and improving access to essential services. We also analyze how mobility has affected in different Red and Blue states of the US.
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
 3. 	Transit stations and
 4. 	Parks categories
 
- 
+ 
 ## Data Sources:
- 
+ 
 We are performing our research on the data provided by Google that is collected from users who have opted-in to Location History for their Google Account. For daily COVID cases, we are using data provided by the CDC.
- 
+ 
 References: 
 
 - https://www.google.com/covid19/mobility/
 - https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36/data
- 
+ 
 ## Approach:
- 
+ 
 Understanding the dataset and performing Exploratory Data Analysis. Preparing data by handling missing values.
 
 ## Technologies Used:
@@ -88,7 +88,7 @@ In this phase, we are understanding what data can be used in order to make our r
 
 ### 5. Modeling Phase
 
-As our project primarily focused on exploratory data analysis, we need be dealing with any specific machine learning algorithms for modeling, instead we will perform descriptive analysis on the effects of mobility during COVID’19 period. Based on the daily data provided by google analytics between the dates 2/15/2020 to 11/20/2020, we have constructed new data frame which we included mobility details of each state in US. We have identified Red states (Republican won states) and Blue states (Democrats won state) as part of constructing association rules and included them in our mobility dataframe. We have performed extensive analysis on the COVID’19 has impacted the mobility of people to different public places such as 
+As our project primarily focused on exploratory data analysis, we are not dealing with any specific machine learning algorithms for modeling, instead we will perform descriptive analysis on the effects of mobility during the COVID’19 period. Based on the daily data provided by google analytics between the dates 2/15/2020 to 11/20/2020, we have constructed a new data frame in which we included mobility details of each state in the US. We have identified Red states (Republican won states) and Blue states (Democrats won state) as part of constructing association rules and included them in our mobility data frame. We have performed an extensive analysis on the COVID’19 has impacted the mobility of people to different public places such as 
 
 1. 	Groceries & pharmacy
 2. 	Retail & recreation
@@ -96,18 +96,18 @@ As our project primarily focused on exploratory data analysis, we need be dealin
 4. 	Parks categories
 
 
-We also constructed our association rules by implementing apriori algorithm on our selected dataset. Some of the associations we found are 
+We also constructed our association rules by implementing the apriori algorithm on our selected dataset. Some of the associations we found are 
 
 -	Poverty is high in the Red counties with support of 70% and confidence of 80%.
--	Number of cases is high in the counties which have more property with support of 8% and confidence of 85%.
+-	Number of cases is high in the counties which have more property with the support of 8% and confidence of 85%.
 
 
 ### 6. Evaluation Phase
 
-We used exploratory data analysis to analyze the mobility trends of different places across all the US states, we observed that mobility has dropped to a greater extent in retail and recreation, transit_stations and workplaces. We used heatmap to show the correlation between the columns of mobility dataset. Histogram plots show us the number of cases in different states and also states with highest positive cases wrt to the state’s population.
+We used exploratory data analysis to analyze the mobility trends of different places across all the US states, we observed that mobility has dropped to a greater extent in retail and recreation, transit_stations, and workplaces. We used heatmap to show the correlation between the columns of the mobility dataset. Histogram plots show us the number of cases in different states and also states with the highest positive cases wrt to the state’s population.
 
-We are visualizing the trends of mobility during COVID19 to different public places using the graphs plotted using the plotly library. Hovering on each individual state gives the statistics such as the totoal number of positive cases, change in mobility to 6 mentioned public places. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline.
-As part of implementation of these graphs we need to install following two libraries namely plotly and chart_studio
+We are visualizing the trends of mobility during COVID19 to different public places using the graphs plotted using the plotly library. Hovering on each individual state gives the statistics such as the total number of positive cases, change in mobility to 6 mentioned public places. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline.
+As part of the representation of these graphs, we need to install the following two libraries namely plotly and chart_studio
 
 ![mobility](https://github.com/pminkuri/KDD_Group3/blob/main/img/mobility_redblue.png)
 
@@ -121,23 +121,23 @@ After we have performed our analysis on the mobility dataset we have got to foll
 We also plotted graphs for individual graphs for each of the 6 mentioned public places and those graphs can be found in the notebook. 
 
 
-We can extend this to county level and analyse more  different trends
+
 
 ### Results and Observations
 
 
 After we have performed our analysis on the mobility dataset we have got to following conclusions. 
 - The mobility of cases has dropped mostly in Blue states and the mobility increased in Red states. 
-- There is huge amount of mobility drop in the states like Washington DC , Hawaii and Florida.
-- We can understand that as these states are mostly visited by Tourist, due to the pandemic there is huge drop in mobility in such places.
-- On another hand there is no much decrease in the mobility of people in the states like Idaho,Wisconsin,Wyoming and South Dakota.
-- We can observe that these states are mostly the mid central states which are not affected by the COVID'19 much.
+- There is a huge amount of mobility drop in the states like Washington DC, Hawaii, and Florida.
+- We can understand that as these states are mostly visited by tourists, due to the pandemic there is a huge drop in mobility in such places.
+- On another hand, there is no much decrease in the mobility of people in the states like Idaho, Wisconsin, Wyoming, and South Dakota.
+- We can observe that these states are mostly the mid-central states which are not affected by the COVID'19 much.
 
 
 
 ## Future work
 
-In our current project we have performed our analysis just to state level in the US, as part of future work we can extend this model to county level. The county level analysis gives  more accurate results with more possible insights. As we are dealing with timeseries data including the counties would have become more extensive data and we may have required more time.
+In our current project, we have performed our analysis just to the state level in the US, as part of future work we can extend this model to the county level. The county-level analysis gives more accurate results with more possible insights. As we are dealing with time series data including the counties would have become more extensive data and we may have required more time.
 
 ## Instructions
 
@@ -147,26 +147,24 @@ Packages to be installed: Numpy, Pandas, Sklearn, Matplotlib, Seaborn,Plotly, ch
 
 
 
-Open Terminal or Command Prompt, Enter the following line to open the jupyter notebook(Note: Both the Dataset and the Notebook has to be in the same folder)
-jupyter notebook Bikeshare_New.ipynb
+Open Terminal or Command Prompt, Enter the following line to open the jupyter notebook.
 Once the Jupyter Notebook opens, you can run the Notebook and make appropriate changes.
 Make sure to put both Dataset and Notebook in the same folder.
 
-Now you can have access to the model we have built you can make analysis using our dataset.
+Now you can have access to the model we have built you can make an analysis using our dataset.
 
 
 
 
 
 
- 
-## References:  
- 
+ 
+## References:  
+ 
 1. https://www.google.com/covid19/mobility/
- 
-2.  https://www.gstatic.com/covid19/mobility/2020-11-13_US_Mobility_Report_en.pdf 	 
+ 
+2.  https://www.gstatic.com/covid19/mobility/2020-11-13_US_Mobility_Report_en.pdf 	 
 
- 
- 
- 
-
+ 
+ 
+ 
