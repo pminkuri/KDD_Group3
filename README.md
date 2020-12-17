@@ -3,7 +3,7 @@
  
 ### Team Members: 
 
- - Shiva Sai Praneeth Chakinala-  801147603
+- Shiva Sai Praneeth Chakinala-  801147603
 - Chaitanya Kintali 	          -	 801097831
 - Prashanth Minkuri    	       -  801166901
 - Pranitha Amrutha Veldanda    -  801166969
