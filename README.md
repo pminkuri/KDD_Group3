@@ -123,6 +123,16 @@ We also plotted graphs for individual graphs for each of the 6 mentioned public 
 
 We can extend this to county level and analyse more  different trends
 
+### Results and Observations
+
+
+After we have performed our analysis on the mobility dataset we have got to following conclusions. 
+- The mobility of cases has dropped mostly in Blue states and the mobility increased in Red states. 
+- There is huge amount of mobility drop in the states like Washington DC , Hawaii and Florida.
+- We can understand that as these states are mostly visited by Tourist, due to the pandemic there is huge drop in mobility in such places.
+- On another hand there is no much decrease in the mobility of people in the states like Idaho,Wisconsin,Wyoming and South Dakota.
+- We can observe that these states are mostly the mid central states which are not affected by the COVID'19 much.
+
 
 
 ## Future work
