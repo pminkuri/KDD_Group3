@@ -8,7 +8,8 @@
 - Prashanth Minkuri    	          -     801166901
 - Pranitha Amrutha Veldanda       -     801166969
  
-GitHub Repo Link:  https://github.com/pminkuri/KDD_Group3
+
+
 
  
 ## Project Introduction:
