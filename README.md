@@ -152,7 +152,8 @@ Make sure to put both Dataset and Notebook in the same folder.
 
 Now you can have access to the model we have built you can make an analysis using our dataset.
 
-You can also find all the visualisations we have performed in seperate pdf file  (https://github.com/pminkuri/KDD_Group3/blob/main/Visualizations.pdf)
+You can find all the visualisations we have performed in seperate pdf file 
+https://github.com/pminkuri/KDD_Group3/blob/main/Visualizations.pdf
 
 
 
@@ -163,9 +164,14 @@ You can also find all the visualisations we have performed in seperate pdf file 
 ## References:  
  
 1. https://www.google.com/covid19/mobility/
- 
-2.  https://www.gstatic.com/covid19/mobility/2020-11-13_US_Mobility_Report_en.pdf 	 
+ 
+2. https://www.gstatic.com/covid19/mobility/2020-11-13_US_Mobility_Report_en.pdf
 
+3. https://docs.oracle.com/cd/E11882_01/datamine.112/e16808/algo_apriori.htm#DMCON287
+
+4. https://plotly.com/python/choropleth-maps/
+
+5. https://matplotlib.org/gallery/index.html#event-handling
  
  
  
