@@ -1,16 +1,13 @@
-### Project Group 3
-### Exploratory Data Analysis of COVID’19 impact on Community Mobility
+## Project Group 3
+## Exploratory Data Analysis of COVID’19 impact on Community Mobility
  
-## Team Members:    
- 
-- Shiva Sai Praneeth Chakinala -  801147603
+### Team Members: 
+
+ - Shiva Sai Praneeth Chakinala-  801147603
 - Chaitanya Kintali 	          -	 801097831
 - Prashanth Minkuri    	       -  801166901
 - Pranitha Amrutha Veldanda    -  801166969
  
-
-
-
  
 ## Project Introduction:
  
