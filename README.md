@@ -125,7 +125,7 @@ We also plotted graphs for individual graphs for each of the 6 mentioned public 
 
 
 
-### Results and Observations
+## Results and Observations
 
 
 After we have performed our analysis on the mobility dataset we have got to following conclusions. 
@@ -136,7 +136,7 @@ After we have performed our analysis on the mobility dataset we have got to foll
 - We can observe that these states are mostly the mid-central states which are not affected by the COVID'19 much.
 
 
-
+## summary
 
 #### What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? 
 
