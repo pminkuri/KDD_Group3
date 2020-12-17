@@ -111,8 +111,12 @@ As part of implementation of these graphs we need to install following two libra
 
 ![mobility](https://github.com/pminkuri/KDD_Group3/blob/main/img/mobility_redblue.png)
 
+## Summary
+After we have performed our analysis on the mobility dataset we have got to following conclusions. The mobility of cases has dropped mostly in Blue states and the mobility increased in Red states.
 
- 
+![lowdrop](https://github.com/pminkuri/KDD_Group3/blob/main/img/lowdrop.png)
+
+![highdrop](https://github.com/pminkuri/KDD_Group3/blob/main/img/highdrop.png)
 
 
 
