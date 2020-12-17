@@ -137,6 +137,21 @@ After we have performed our analysis on the mobility dataset we have got to foll
 
 
 
+
+#### What was unique about the data?  Did you have to deal with imbalance? What data cleaning did you do? 
+
+We have combined the covid-19 community mobility dataset and the covid-19 cases dataset from February to November to get the required results and there was a lot of imbalance between the two datasets and  We have 2 different data types and they are numeric and categorical. We have a column "Date" which is of data type object and we converted it to date type. Also removed unwanted extra columns this includes duplicate or irrelevant observations which are not useful for our analysis for example in feature selection we have data corresponding to each county within the state and as we concentrated more on state-wise data we dropped the county wise data. We had many missing values in the datasets which we cannot ignore missing values in our dataset, So we have dropped some observations and have replaced some with the 0. We have also observed that there are outliers in all places.
+
+#### Did you create any new additional features / variables?
+
+We have added new columns 'new_cases', cases_percent' of df_cases1 to df_mobility dataset.
+
+#### What was the process you used for evaluation?  What was the best result?
+
+We used exploratory data analysis to analyze the mobility trends of different places across all the US states, we observed that mobility has dropped to a greater extent in retail and recreation, transit_stations, and workplaces. We used a heatmap to show the correlation between the columns of the mobility dataset. Histogram plots show us the number of cases in different states and also states with the highest positive cases wrt to the population of the state.We used plotly and chart_studio library to analyze the mobility trends in different places with hovering on the states. States with darker colors indicate the mobility is high and as the color intensity decrease, it indicates the states with low mobility than that of baseline
+
+
+
 ### Future work
 
 In our current project, we have performed our analysis just to the state level in the US, as part of future work we can extend this model to the county level. The county-level analysis gives more accurate results with more possible insights. As we are dealing with time series data including the counties would have become more extensive data and we may have required more time.
